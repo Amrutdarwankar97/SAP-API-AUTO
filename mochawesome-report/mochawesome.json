@@ -1,0 +1,142 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-08-23T12:23:19.621Z",
+    "end": "2023-08-23T12:23:21.665Z",
+    "duration": 2044,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "81b1572f-9ab3-4648-b9b0-67cd2a662738",
+      "title": "",
+      "fullFile": "C:\\Users\\adarwank\\Desktop\\PolestarWorkspace\\SAP-API-AUTO\\TestApi\\002_SAP_API_AUTO_POLE_NEW.js",
+      "file": "\\TestApi\\002_SAP_API_AUTO_POLE_NEW.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "bd0464ee-298c-4d4c-ad14-895acb61a6d8",
+          "title": "API Tests",
+          "fullFile": "C:\\Users\\adarwank\\Desktop\\PolestarWorkspace\\SAP-API-AUTO\\TestApi\\002_SAP_API_AUTO_POLE_NEW.js",
+          "file": "\\TestApi\\002_SAP_API_AUTO_POLE_NEW.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook in \"API Tests\"",
+              "fullTitle": "API Tests \"before all\" hook in \"API Tests\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Any setup code you need before running the tests",
+              "err": {},
+              "uuid": "d891e69f-f0a4-4505-bdaa-40a9217c0cc6",
+              "parentUUID": "bd0464ee-298c-4d4c-ad14-895acb61a6d8",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook in \"API Tests\"",
+              "fullTitle": "API Tests \"after all\" hook in \"API Tests\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Any teardown code you need after running the tests",
+              "err": {},
+              "uuid": "9ba959c3-2ff1-4bc2-a2a3-dfc32d9ffdf0",
+              "parentUUID": "bd0464ee-298c-4d4c-ad14-895acb61a6d8",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "should run API tests",
+              "fullTitle": "API Tests should run API tests",
+              "timedOut": true,
+              "duration": 2028,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const testCases = await loadTestCases();\nconsole.info(testCases);\n// Loop through each test case\nfor (const testCase of testCases) {\n    await executeTestCase(testCase);\n}",
+              "err": {
+                "message": "Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\adarwank\\Desktop\\PolestarWorkspace\\SAP-API-AUTO\\TestApi\\002_SAP_API_AUTO_POLE_NEW.js)",
+                "estack": "Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\adarwank\\Desktop\\PolestarWorkspace\\SAP-API-AUTO\\TestApi\\002_SAP_API_AUTO_POLE_NEW.js)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)",
+                "diff": null
+              },
+              "uuid": "642b6eb5-86e5-4a14-a2d3-3d9d9e564bf8",
+              "parentUUID": "bd0464ee-298c-4d4c-ad14-895acb61a6d8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "642b6eb5-86e5-4a14-a2d3-3d9d9e564bf8"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 2028,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+testName,url,method,headers,params,expectJson,data,expectedStatus
+SAPtest-1,"https://quality.pab.hec.ondemand.com/sap/opu/odata/sap/UI_SOURCINGPROJECT_MANAGE/SourcingProject?$filter= startswith (SourcingProjectName,'simple')",GET,x-csrf-token: Cr4ZD_VZ1tsULw3fRbopAQ==,$format:json,,datavalue,200
+SAPtest-2,"https://quality.pab.hec.ondemand.com/sap/opu/odata/sap/UI_SOURCINGPROJECT_MANAGE/SourcingProject",POST,x-csrf-token: Cr4ZD_VZ1tsULw3fRbopAQ==,,SourcingProjectName:Simple Sourcing 223,datavalue,201

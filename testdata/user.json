@@ -1,0 +1,81 @@
+{
+    "MaterialNumber": "300000000517",
+    "VariantObjectType": "MARA",
+    "VariantClassType": "300",
+    "VariantObjectKey": "1004",
+    "ConfigurableMaterial": "1004",
+    "ClassifObjTable": "MARA",
+    "ClassifClassNum": "PS_INFO",
+    "ClassifClassType": "001",
+    "LastChangedAt": "2023-05-08T00:00:00",
+    "to_mat_classification": [
+        {
+            "MaterialNumber": "300000000517",
+            "ClassificationChar": "Z001",
+            "ClassificationValue": "20230626",
+            "ClassificationValueRelation": "1"
+        },
+        {
+            "MaterialNumber": "300000000517",
+            "ClassificationChar": "Z002",
+            "ClassificationValue": "99991231",
+            "ClassificationValueRelation": "1"
+        }
+    ],
+    "to_mat_variant": [
+        {
+            "MaterialNumber": "300000000517",
+            "VariantChar": "A7001",
+            "VariantValue": "A7001-F0004",
+            "VariantValCode": "1"
+        },
+        {
+            "MaterialNumber": "300000000517",
+            "VariantChar": "A8002",
+            "VariantValue": "A8002-F0007",
+            "VariantValCode": "1"
+        },
+        {
+            "MaterialNumber": "300000000517",
+            "VariantChar": "A8020",
+            "VariantValue": "A8020-F0005",
+            "VariantValCode": "1"
+        },
+        {
+            "MaterialNumber": "300000000517",
+            "VariantChar": "A8033",
+            "VariantValue": "A8033-F0002",
+            "VariantValCode": "1"
+        },
+        {
+            "MaterialNumber": "300000000517",
+            "VariantChar": "A8067",
+            "VariantValue": "A8067-F0040",
+            "VariantValCode": "1"
+        },
+        {
+            "MaterialNumber": "300000000517",
+            "VariantChar": "A8068",
+            "VariantValue": "A8068-F0002",
+            "VariantValCode": "1"
+        },
+        {
+            "MaterialNumber": "300000000517",
+            "VariantChar": "A8069",
+            "VariantValue": "A8069-F0003",
+            "VariantValCode": "1"
+        },
+        {
+            "MaterialNumber": "300000000517",
+            "VariantChar": "A8070",
+            "VariantValue": "A8070-F0001",
+            "VariantValCode": "1"
+        },
+        {
+            "MaterialNumber": "300000000517",
+            "VariantChar": "A9999",
+            "VariantValue": "A9999-F0004",
+            "VariantValCode": "1"
+        }
+    ]
+}
